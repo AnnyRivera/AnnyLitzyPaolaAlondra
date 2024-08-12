@@ -14,7 +14,7 @@ require_once('connection/dbconnection.php'); // Incluye el archivo de conexión 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recuperar Contraseña - Tech Store 💻</title>
+    <title>Recuperar Contraseña </title>
     <link rel="icon" type="image/x-icon" href="img/favicon.png">
     <!-- Incluye los CSS de Bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.css">
@@ -47,10 +47,7 @@ require_once('connection/dbconnection.php'); // Incluye el archivo de conexión 
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top ">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.php"> 
-                <h2>
-                    <span class="text-white">Tech</span>
-                    <span class="text-primary">Store</span> 💻
-                </h2>
+               
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
                 <span class="navbar-toggler-icon"></span>
@@ -62,8 +59,7 @@ require_once('connection/dbconnection.php'); // Incluye el archivo de conexión 
                     </li>
                 </ul>
                 <form class="d-flex">
-                    <input class="form-control me-2" type="text" placeholder="Buscar artículo">
-                    <button class="btn btn-primary" type="button">Buscar</button>
+                   
                 </form>
             </div>
         </div>
@@ -95,14 +91,10 @@ require_once('connection/dbconnection.php'); // Incluye el archivo de conexión 
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-md-6">
-                    <p class="mb-0"><i class="bi bi-house-door-fill"></i> Dirección: 123 Calle Principal, Ciudad</p>
+                   
                 </div>
                 <div class="col-md-6 d-flex flex-column flex-md-row-reverse align-items-center">
-                    <a href="#" class="text-light me-3"><i class="bi bi-facebook"></i></a>
-                    <a href="#" class="text-light me-3"><i class="bi bi-twitter"></i></a>
-                    <a href="#" class="text-light me-3"><i class="bi bi-instagram"></i></a>
-                    <a href="tel:+8441716912" class="text-light me-3"><i class="bi bi-telephone-fill text-danger"></i> +844 5654998</a>
-                    <a href="mailto:TechStore@hotmail.com" class="text-light"><i class="bi bi-envelope-fill"></i> TechStore@hotmail.com</a>
+                   
                 </div>
             </div>
         </div>
