@@ -28,7 +28,7 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
-require 'vendor/autoload.php';
+require 'autoload.php';
 
 
 // Crear una instancia de la clase Database y obtener la conexión
@@ -114,7 +114,7 @@ if (isset($_POST['recoverPassword'])) {
                   <p>Haz clic en el siguiente enlace para restablecer tu clave de acceso:</p>
                   <p style:"color:white;"><a href="http://localhost/mendozacerdaalondramitchelUnidad2/reset_password.php?email=' . urlencode($email) . '&token=' . urlencode($token) . '" class="btn">Restablecer clave de acceso</a></p>
                   <p>Si no solicitaste este cambio, puedes ignorar este correo.</p>
-                  <p>Gracias,<br>4 nenis 🧡</p>
+                  <p>Gracias,<br>4 nenis</p>
                 </div>
               </div>
             </body>
